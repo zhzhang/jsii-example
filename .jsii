@@ -1,0 +1,96 @@
+{
+  "author": {
+    "name": "zhzhang",
+    "roles": [
+      "author"
+    ]
+  },
+  "description": "Example JSII project.",
+  "docs": {
+    "stability": "stable"
+  },
+  "homepage": "git@github.com:zhzhang/jsii-example.git",
+  "jsiiVersion": "1.11.0 (build 1e9b8e1)",
+  "license": "UNLICENSED",
+  "name": "jsii-example",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zhzhang/jsii-example.git"
+  },
+  "schema": "jsii/0.10.0",
+  "targets": {
+    "js": {
+      "npm": "jsii-example"
+    },
+    "python": {
+      "distName": "jsii-example",
+      "module": "jsii_example"
+    }
+  },
+  "types": {
+    "jsii-example.Bar": {
+      "assembly": "jsii-example",
+      "datatype": true,
+      "docs": {
+        "stability": "stable"
+      },
+      "fqn": "jsii-example.Bar",
+      "kind": "interface",
+      "locationInModule": {
+        "filename": "lib/index.ts",
+        "line": 5
+      },
+      "name": "Bar",
+      "properties": [
+        {
+          "abstract": true,
+          "docs": {
+            "stability": "stable"
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "lib/index.ts",
+            "line": 6
+          },
+          "name": "foo",
+          "type": {
+            "fqn": "jsii-example.Foo"
+          }
+        }
+      ]
+    },
+    "jsii-example.Foo": {
+      "assembly": "jsii-example",
+      "datatype": true,
+      "docs": {
+        "stability": "stable"
+      },
+      "fqn": "jsii-example.Foo",
+      "kind": "interface",
+      "locationInModule": {
+        "filename": "lib/index.ts",
+        "line": 1
+      },
+      "name": "Foo",
+      "properties": [
+        {
+          "abstract": true,
+          "docs": {
+            "stability": "stable"
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "lib/index.ts",
+            "line": 2
+          },
+          "name": "name",
+          "type": {
+            "primitive": "string"
+          }
+        }
+      ]
+    }
+  },
+  "version": "0.0.12",
+  "fingerprint": "Rlmu4U4HNkcbKl6inwKF8Je7WLWj7AmpezAhohAMIh8="
+}
